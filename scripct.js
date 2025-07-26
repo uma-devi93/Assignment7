@@ -11,6 +11,14 @@ let outputscreen = document.getElementById("output-screen");
 
     }
 }
+function sqrt()
+{
+    screen.value= Math.sqrt(screen.value,2);
+}
+function sqrt()
+{
+    screen.value =Math.sqrt(screen.value,3);
+}
 function clear(){
     outputscreen.value="";
 }
